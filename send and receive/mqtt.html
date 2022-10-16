@@ -23,9 +23,16 @@
             <td id="kelembaban">...</td>
         </tr>
     </table>
+    <table align="center">
+        <td><canvas id="chartHujan"></canvas></td>
+        <td><canvas id="chartSuhu"></canvas></td>
+        <td><canvas id="chartKelembaban"></canvas></td>
+    </table>
+
     <input type="text" id="publish">
     <button onclick="publish()">Publish</button>
     <script src="https://unpkg.com/mqtt/dist/mqtt.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
     <script src="data.js"></script>
 </body>
 </html>
